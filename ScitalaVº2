@@ -1,0 +1,29 @@
+
+#include "ScitalaHeader.h"
+
+
+int main()
+{
+    ScitalaHeader mensaje1;
+    
+    mensaje1.mensaje={"hola estan como   "};
+
+    cout<<"El mensaje 1: "<<mensaje1.mensaje<<" ";
+    mensaje1.encriptarScitala();
+    cout<<"encriptado es: ";
+    mensaje1.imprimir();
+    cout<<"."<<endl<<endl;
+
+    ScitalaHeader mensaje2;
+
+    mensaje2.mensaje={"hsootmlaoan    ec "};
+    
+    cout<<"El mensaje 2: "<<mensaje2.mensaje<<" ";
+    mensaje2.desencriptarScitala();
+    cout<<"desencriptado es: ";
+    mensaje2.imprimir();
+    cout<<"."<<endl<<endl;
+
+    return 0;
+
+}
