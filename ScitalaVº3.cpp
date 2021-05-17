@@ -59,15 +59,15 @@ int main()
     string mensaje;
     cout<<"Ingrese el mensaje:"<<endl;
     getline(cin,mensaje);
-    descifradoScitala(mensaje);
-    cout<<"El mensaje es: "<<endl<<mensaje;
+    cifradoScitala(mensaje);
+    cout<<"El mensaje cifrado es: "<<endl<<mensaje;
     cout<<endl;
 
     string mensajeAdescifrar;
     cout<<"Ingrese el mensaje a descifrar:"<<endl;
     getline(cin,mensajeAdescifrar);
     descifradoScitala(mensajeAdescifrar);
-    cout<<"El mensaje es: "<<endl<<mensajeAdescifrar;
+    cout<<"El mensaje descifrado es: "<<endl<<mensajeAdescifrar;
     cout<<endl;
 
     return 0;
